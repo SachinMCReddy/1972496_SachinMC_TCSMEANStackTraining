@@ -1,0 +1,39 @@
+div{
+    padding: 20x;
+    border: solid black 2px;
+    border-radius: 30px;
+    margin: 10px;
+    width: 240px;
+    height: 300px;
+    float: left;
+}
+#computer_class{
+    transition: width .01s,height 2s;
+}
+div:hover{
+    transform: width .1s height .1s;
+}
+#computer_class:hover{
+    width: 1000px;
+    height: 800px;
+}
+#phone_class{
+    transition: width .01s,height 2s;
+}
+div:hover{
+    transform: width .1s height .1s;
+}
+#phone_class:hover{
+    width: 250px;
+    height: 500px;
+}
+#laptop_class{
+    transition: width .01s,height 2s;
+}
+div:hover{
+    transform: width .1s height .1s;
+}
+#laptop_class:hover{
+    width: 800px;
+    height: 600px;
+}
