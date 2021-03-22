@@ -1,18 +1,31 @@
-var teamBudgetObj = []
-function addBudget() {
-    var obj = {}
-    var client = document.getElementById("clientName").value;
-    var program = document.getElementById("programName").value;
-    var budget = document.getElementById("budget").value;
-    obj.client = client
-                obj.program = program
-                obj.budget = budget
-                save(obj)
-                clearInputs()
+var Infolist = []; 
+function getInformation()
+{
+    var clientInformation = {}; 
+    clientInformation.name = document.getElementById("clientName").value;
+    clientInformation.projectName = document.getElementById("projectName").value;
+    clientInformation.budget = document.getElementById("Budget").value;
+    console.log(clientInformation);
+    return clientInformation;
+}
+function add()
+{
+    var clientInfo = getInformation(); 
+    Infolist.push(clientInfo); 
+    clearInput(); 
 }
 
-function clearInputs() {
-    document.getElementById("clientName").value = ""
-    document.getElementById("programName").value = ""
-    document.getElementById("budget").value = ""
+function saveInformation()
+{
+    var clientString = JSON.stringify(Infolist);
+    sessionStorage.setItem("clientInformation", clientString);
+
+}
+
+function clearInput()
+{
+    document.getElementById("clientName").value = "";
+    document.getElementById("projectName").value = "";
+    document.getElementById("Budget").value = "";
+
 }

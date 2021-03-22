@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="mainPage.css">
+
+
+    <center> <h1>Program Managers</h1></center>
+
     <script src="programManagers.js"></script>
+    <link rel="stylesheet" href="main.css"></a>
 </head>
 <body>
-    <h1>Program Managers<h1>
+    <h2>Program Managers</h2>
+
     <div>
-        <p id="subTitle">Add New Budget</p>
+        <h3><u>Add new Budget</u> </h3>
+
         <form>
-            <label class="label">Client Name</label>
-            <input type="text" id="clientName"/><br/>
-            <label>Project Name</label>
-            <input type="text" id="projectName"/><br/>
-            <label>Budget</label>
-            <input type="number" id="budget"/><br/><br><br>
-            <input type="button" value="Add" onclick="addBudget()">
-            <input type="button" value="Clear" onclick="clearInputs()"/>
+            <label>Client Name:</label>
+            <input type="text" id="clientName"/> <br/><br/>
+
+            <label>Project Name:</label>
+            <input type="text" id="projectName" width="200px"/> <br/><br/>
+
+            <label>Budget:</label>
+            <input type="number" id="Budget"/> <br/><br/>
+
+            <input type="button" value="Add" onclick="add()"/>
+            <input type="button" value="Clear" onclick="clearInput()"/>
+            <a href="main.html" onclick="saveInformation()">Back</a>
         </form>
     </div>
 </body>

@@ -4,49 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="mainPage.css">
-    <script scr="financialTeams"></script>
-   
+    <title>Finances</title>
+
+    <script src="Finance.js"></script>
+    <link rel="stylesheet" href="style.css"></a>
 </head>
-<body> 
-    
-   <h1 text-align="center"> Finance Teams</h1>
+<body onload="retrieveInformation()">
+  <center>
+    <h2>Finances Teams</h2>
+
     <div>
-        <p id="subTitle">Annual Budget</p>
-        <table>
-            <tr>
-              <th>Client Name</th>
-              <th>project Name </th>
-              <th>Budget</th>
-            </tr>
-            <tr>
-              <td>Apple</td>
-              <td>Phone</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Chase</td>
-              <td> Multifactor Auth</td>
-              <td></td>
-            </tr>
-            <tr>
-                <td>Delta</td>
-                <td>Ticket Booking</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Google</td>
-                <td>Maps</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>Tcs</td>
-                <td>ILP</td>
-                <td></td>
-              </tr>
-          </table>
+        <h3><u>Annual Budget</u></h3>
+
+        <table id="clientTable">
+            <thead>
+                <tr> 
+                    <th>Client Name</th>
+                    <th>Project Name</th>
+                    <th>Budget</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+            
+        </table>
+        <br/>
+        <P id= "total">The total budget is: </P>
     </div>
-    
+</center>  
 </body>
 </html>
