@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/JavaScript" src="management.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="d-flex justify-content-center">
+            <h2><u>Shopping Cart</u></h2>
+        </div>
+        <div class="row d-flex justify-content-center mb-5" id="grid1">
+            <div class="col-sm-6">
+                <div class="d-flex justify-content-between">
+                    <h5>Cart Size:<span id="size"></span></h5>
+                    <a href="cart.html" class="d-flex justify-content-end"><u>Checkout</u></a>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" id="div1">
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="card-header">
+                      <h3 id="iphone">Iphone</h3>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="iphonePrice">$999</h5>
+                      <p class="card-text">Relaese date march 10</p>
+                      <input class="btn btn-primary" type="button" id="button1" value="Add to Cart" onclick="add_iphone();"></input>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 id="ipad">Ipad</h3>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="ipadPrice">$499</h5>
+                      <p class="card-text"> Relaese date march 11</p>
+                      <input class="btn btn-primary" type="button" id="button1" value="Add to Cart" onclick="add_ipad();"></input>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 id="imac">Imac</h3>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="imacPrice">$2999</h5>
+                      <p class="card-text">Relaese date march 13</p>
+                      <input class="btn btn-primary" type="button" id="button1" value="Add to Cart" onclick="add_imac();"></input>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center" id="div2">
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 id="ipod">Ipod</h3>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="ipodPrice">$150</h5>
+                      <p class="card-text">Relaese date march 14.</p>
+                      <input class="btn btn-primary" type="button" id="button1" value="Add to Cart" onclick="add_ipod();"></input>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 id="itv">TV</h3>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="itvPrice">$200</h5>
+                      <p class="card-text">Relaese date march 15</p>
+                      <input class="btn btn-primary" type="button" id="button1" value="Add to Cart" onclick="add_itv();"></input>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 id="iglasses">Glasses</h3>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" id="iglassesPrice">$299</h5>
+                      <p class="card-text">Relaese date march 16.</p>
+                      <input class="btn btn-primary" type="button" id="button1" value="Add to Cart" onclick="add_iglasses();"></input>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

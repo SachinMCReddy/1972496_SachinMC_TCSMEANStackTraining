@@ -1,0 +1,22 @@
+.budgetList {
+    border-collapse: inherit;
+    margin: 56px 0;
+    font-size: 20px;
+    font-family: sans-serif;
+    min-width: 800px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+}
+
+.budgetList tbody tr {
+    border: 1px solid #b11f1f;
+}
+.budgetList thead tr {
+    background-color: blueviolet;
+    color: yellowgreen;
+    text-align: left;
+}
+
+#main{
+    border: solid green;
+    margin: 25px 25% 0 25%;
+}
