@@ -1,0 +1,73 @@
+[
+   
+    {
+        "question": "How many legs does the legs of Man have?",
+        "a": "one",
+        "b": "two",
+        "c": "three",
+        "correct": "c"
+    },
+    {
+        "question": "How many tails does a Manx cat have?",
+        "a": "one",
+        "b": "two",
+        "c": "none",
+        "correct": "c"
+    },
+    {
+        "question": "How many teeth does an aardvark have?",
+        "a": "one",
+        "b": "two",
+        "c": "none",
+        "correct": "c"
+    },
+    {
+        "question": "Which sea creature has three hearts?",
+        "a": "octopus",
+        "b": "squid",
+        "c": "shark",
+        "correct": "a"
+    },
+    {
+        "question": "Which instrument has forty-seven strings and seven pedals?",
+        "a": "harp",
+        "b": "thermometer",
+        "c": "breath anaylyzer",
+        "correct": "a"
+    },
+    {
+        "question": "Whose face was said to have launched 1,000 ships?",
+        "a": "reck",
+        "b": "john",
+        "c": "helen of tray",
+        "correct": "c"
+    },
+    {
+        "question": "In the traditional rhyme, how many mice were blind?",
+        "a": "one",
+        "b": "three",
+        "c": "two",
+        "correct": "b"
+    },
+    {
+        "question": "How many bones does an adult human have?",
+        "a": "three hundred",
+        "b": "two hundred and six",
+        "c": "six hundred",
+        "correct": "b"
+    },
+    {
+        "question": "How many pedals do most modern pianos have?",
+        "a": "one",
+        "b": "two",
+        "c": "three",
+        "correct": "c"
+    },
+    {
+        "question": "Water boils at 212 degrees on which temperature scale? ",
+        "a": "degrees",
+        "b": "fahrenheit",
+        "c": "none of above",
+        "correct": "b"
+    }
+]
